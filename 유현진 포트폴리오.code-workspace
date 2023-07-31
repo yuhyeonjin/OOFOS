@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../유현진/더 페이스샵 코딩"
+		},
+		{
+			"path": "../유현진/CSS/반응형웹"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "유현진 포트폴리오"
+	}
+}
