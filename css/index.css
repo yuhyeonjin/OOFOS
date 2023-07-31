@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-
 .container {
     position: relative;
     width: 1320px;
@@ -53,6 +52,10 @@ h1 {
 
 /*=====main======*/
 
+.slide-img-box > img {
+    width: 100%;
+}
+
 .menu {
     width: 100%;
     margin: 0 auto;
@@ -67,11 +70,12 @@ h1 {
 } 
 
 .ooriginal > li > a > img {
-    width: 200px;
+    width: 250px;
 }
 
 .main-img {
     display: flex;
+    margin-left: 120px;
 }
 
 .main-img > img {
@@ -87,7 +91,7 @@ h1 {
 }
 
 .second > li > a >img {
-    width: 200px;
+    width: 250px;
 }
 
 .txt-box {
@@ -99,7 +103,7 @@ h1 {
     color: green;
     font-size: 35px;
     font-weight: 1000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'impact';
 }
 
 .txt-box > .txt1 {
@@ -108,6 +112,8 @@ h1 {
 
 .why-oofos-box {
     display: flex;
+    margin-top: 80px;
+    margin-left: 240px;
 }
 
 .content-txt-box {
@@ -117,11 +123,12 @@ h1 {
 .content-txt-box > h3 {
     font-size: 30px;
     font-weight: 1000;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'impact';
     line-height: 60px;
 }
 
 .content-txt-box > p {
+    margin-top: 60px;
     font-size: 12px;
 }
 
@@ -130,4 +137,55 @@ h1 {
 .why-oofos-img-box > img {
     width: 450px;
 }
+
+.why-oofos-txt-box {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.why-oofos-txt-box > h3 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'impact';
+    line-height: 60px;
+}
+
+.why-oofos-txt-box > p {
+    margin-top: 60px;
+    font-size: 12px;
+}
+
+.how-we-give-txt-box > h2 {
+    margin-top: 110px;
+    font-size: 40px;
+    font-family: 'impact';
+    font-weight: bold;
+}
+
+.green-box {
+    margin-top: 142px;
+}
+
+.how-we-give-txt-box > p {
+    margin-top: 98px;
+}
+
+.how-we-give-img-box {
+    margin-left: 60px;
+}
+
+.how-we-give-img-box > img {
+    width: 650px;
+    height: 648px;
+}
+
+.how-we-give-box {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 180px;
+}
+
+
+
+
 
